@@ -1,0 +1,16 @@
+{
+  "name": "chicago-presentation",
+  "description": "The presentation (index.html at the repository root) hosted as a Microsoft Fabric App (Rayfin static hosting).",
+  "license": "MIT",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "deploy": "rayfin up --workspace FabricChicagoPresentation",
+    "deploy:static": "rayfin up staticapp deploy"
+  },
+  "devDependencies": {
+    "@microsoft/rayfin-cli": "^1.36.2"
+  }
+}

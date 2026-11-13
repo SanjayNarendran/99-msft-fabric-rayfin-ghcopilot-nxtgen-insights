@@ -1,0 +1,26 @@
+id: chicago-presentation
+name: chicago-presentation
+version: 1.0.0
+services:
+  auth:
+    enabled: true
+    fabric:
+      enabled: true
+    password:
+      enabled: false
+    allowedRedirectUris:
+      - http://localhost:5173
+      - http://127.0.0.1:5173
+      - https://sandy-plum-8f8b0fe1d1-centralus.webapp.fabricapps.net
+  data:
+    enabled: false
+  staticHosting:
+    enabled: true
+    folder: dist
+    buildCommand: npm run build
+    indexDocument: index.html
+    assetAccess: protected
+  storage:
+    enabled: false
+  functions:
+    enabled: false

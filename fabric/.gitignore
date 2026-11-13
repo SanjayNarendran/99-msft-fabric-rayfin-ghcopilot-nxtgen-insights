@@ -1,0 +1,8 @@
+node_modules/
+dist/
+rayfin/.env
+rayfin/.env.*
+rayfin/.deployments.json
+rayfin/.temp/
+rayfin/.*.tmp
+.agents/
