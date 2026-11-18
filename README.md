@@ -2,16 +2,20 @@
 
 A presentation on where data insights are heading, in four stages, all built on Microsoft Fabric:
 
-1. **Conversational**: ask in the flow of work
+1. **Intelligent UX**: AI-native user experiences, and the Fabric platform that makes them possible: what 2026 added
+   (Rayfin for the user experience, and MCP, through which GitHub Copilot drives agentic development)
 2. **Automatic & Governed**: insights that find you, told for the role you play
 3. **Generative UI**: visual-first insights
 4. **Multimodal Insights**: natural-language cohort discovery, a patient's whole record with its slides and scans
    (Patient 360), and a conversation that answers with a breathing 4D CT
 
-It closes on the Fabric ecosystem, 2025 to 2026, where Rayfin (the user experience) and MCP, through which GitHub
-Copilot drives agentic development on Fabric, arrive, and then hands over to the demo.
+It then hands over to the demo.
 
 **View it live:** https://sanjaynarendran.github.io/99-msft-fabric-rayfin-ghcopilot-nxtgen-insights/
+
+The previous version (v1), whose first stage was **Conversational** (Microsoft 365 Copilot and GitHub Copilot in the
+flow of work), is kept at [`v1/`](v1/index.html), live at
+https://sanjaynarendran.github.io/99-msft-fabric-rayfin-ghcopilot-nxtgen-insights/v1/, and tagged `v1`.
 
 The deck is a single self-contained HTML file ([`index.html`](index.html)): styles, scripts, fonts and logos are all
 embedded (including the stage 4 images and videos), so it also works offline. Download it and open it in any modern browser (Edge, Chrome, Safari, Firefox).
@@ -35,6 +39,8 @@ npm run deploy
 | → · Space · Page Down | Next step or slide |
 | ← · Page Up | Previous step or slide |
 | Home · End · 1–9 | First, last or numbered slide |
+| Click a bar | Open that stage at its first slide |
+| Click the line at the foot | Go to the slide under the pointer (its title shows on hover) |
 | F | Full screen |
 | N | Speaker notes |
 | R | Replay the current slide |
