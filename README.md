@@ -3,7 +3,7 @@
 A presentation on where data insights are heading, in four stages, all built on Microsoft Fabric:
 
 1. **Intelligent UX**: AI-native user experiences, and the Fabric platform that makes them possible: what 2026 added
-   (Rayfin for the user experience, and MCP, through which GitHub Copilot drives agentic development)
+   (Rayfin for the user experience, and MCP, which connects GitHub Copilot and Foundry agents to Fabric)
 2. **Automatic & Governed**: insights that find you, told for the role you play
 3. **Generative UI**: visual-first insights
 4. **Multimodal Insights**: natural-language cohort discovery, a patient's whole record with its slides and scans
